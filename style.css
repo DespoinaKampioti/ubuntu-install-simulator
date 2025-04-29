@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: Ubuntu, sans-serif;
+  background-color: #1c1c1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#simulator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 900px;
+  max-width: 100%;
+  background-color: #000;
+  border-radius: 16px;
+  box-shadow: 0 0 40px rgba(0, 255, 255, 0.2);
+  padding: 20px;
+}
+
+#screen {
+  width: 100%;
+  height: 520px;
+  background-color: #1e1e1e;
+  border: 6px solid #333;
+  border-radius: 8px;
+  overflow-y: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+}
+
+#step-content {
+  width: 100%;
+  height: 100%;
+}
+
+#controls {
+  margin-top: 16px;
+  text-align: center;
+}
+
+#instruction {
+  color: #ddd;
+  margin-bottom: 10px;
+}
+
+#next-button {
+  background-color: #e95420;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#next-button:hover {
+  background-color: #c24114;
+}
+
+select, input[type="text"], input[type="password"], input[type="radio"], label {
+  margin: 5px;
+  font-size: 1em;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #444;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.progress-bar-inner {
+  height: 20px;
+  width: 0;
+  background-color: #4caf50;
+  border-radius: 4px;
+  transition: width 1s ease;
+}
+
+.ubuntu-background {
+  background-image: url('Ubuntu_desktop.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px black;
+}
+
+.ubuntu-background-final {
+  background-image: url('Ubuntu_24.04_image.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px black;
+}
+
+.ubuntu-window {
+  background: white;
+  color: black;
+  border-radius: 12px;
+  max-width: 720px;
+  margin: auto;
+  padding: 20px 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.ubuntu-window input[type="text"],
+.ubuntu-window input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.bios-menu {
+  font-family: monospace;
+  background: black;
+  color: #0f0;
+  padding: 10px;
+  border: 2px solid #0f0;
+  border-radius: 6px;
+}
+
+.usb-button {
+  background-color: #3a3a3a;
+  color: white;
+  border: 1px solid #666;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.usb-button:disabled {
+  background-color: #2c2c2c;
+  border-color: #555;
+  color: #aaa;
+}
