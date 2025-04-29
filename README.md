@@ -1,1 +1,3 @@
-# ubuntu-install-simulator
+#Προσομοίωση Εγκατάστασης Ubuntu
+
+Οδηγίες χρήσης:
