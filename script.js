@@ -255,7 +255,7 @@ OTHER OPTIONS:
     content: `
       <div class="restart-background">
         <div class="restart-message">
-          <h3>Επανεκκίνηση συστήματος...</h3>
+          <h3>Αφαιρέστε το USB από τη συσκευή σας. Επανεκκίνηση συστήματος...</h3>
         </div>
       </div>
     `,
