@@ -251,16 +251,16 @@ OTHER OPTIONS:
     }
   },
   {
-    instruction: "Βήμα 17: Εκτελείται επανεκκίνηση συστήματος. Περιμένετε.",
+    instruction: "Βήμα 17: Επανεκκίνηση συστήματος. Περιμένετε.",
     content: `
       <div class="restart-background">
         <div class="restart-message">
-          <h3>Αφαιρέστε το USB από τη συσκευή σας. Επανεκκίνηση συστήματος...</h3>
+          <h3>Αφαιρέστε το USB από τη συσκευή σας. Εκτελείται επανεκκίνηση συστήματος...</h3>
         </div>
       </div>
     `,
     onload: () => {
-      setTimeout(() => goToNext(), 5000);
+      setTimeout(() => goToNext(), 7000);
     }
   },
   {
